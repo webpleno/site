@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 html {
@@ -14,10 +15,20 @@ h1,h2,h3,h4 {
 }
 p{
 	color: #666;
+=======
+.esquerda{
+	margin-top: 100px;
+}
+.direita{
+	/*margin-top: 100px;*/
+}
+p{
+>>>>>>> 6f0d0c9c4cfa24459144ccc5101b6b525307dfbc
 	text-align: justify;
 	font-size: 1.2rem;
 	font-weight: 300;
 }
+<<<<<<< HEAD
 header {
 	margin-bottom: 50px;
 }
@@ -50,3 +61,8 @@ footer {
 .menu-lateral a:hover{
 	background-color: #eee;
 }
+=======
+section{
+	margin: 100px 0px;
+}
+>>>>>>> 6f0d0c9c4cfa24459144ccc5101b6b525307dfbc
