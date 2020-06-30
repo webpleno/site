@@ -1,14 +1,52 @@
-.esquerda{
-	margin-top: 100px;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+html {
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
 }
-.direita{
-	/*margin-top: 100px;*/
+h1,h2,h3,h4,p{
+	font-family: 'Oswald', sans-serif;
+}
+h1,h2,h3,h4 {
+	color: #444;
+	font-weight: 500;
 }
 p{
+	color: #666;
 	text-align: justify;
 	font-size: 1.2rem;
 	font-weight: 300;
 }
-section{
-	margin: 100px 0px;
+header {
+	margin-bottom: 50px;
+}
+footer {
+	height:100px;
+	background-color: #333;
+
+}
+
+.color-white {
+	margin-top: 20px;
+	color:#fff;
+}
+.video {
+	margin:30px 0px;
+}
+.menu-lateral ul{
+	width: 100%;
+	margin: 0px;
+}
+.menu-lateral ul li{
+	width: 100%;
+	margin: 0px;
+}
+.menu-lateral a{
+	width: 100%;
+	margin:1px 0px;
+	padding: 3px 10px;
+}
+.menu-lateral a:hover{
+	background-color: #eee;
 }
